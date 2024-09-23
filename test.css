@@ -1,0 +1,49 @@
+.Main-body
+{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 90vh;
+    width: 100%;
+    z-index: -1;
+    background-image: url('./WhatsApp\ Image\ 2024-09-22\ at\ 18.12.41_5dd1e80e.jpg');
+                    /* Replace with your image path */
+                    background-size: cover;
+                    /* Ensures the image covers the entire div */
+                    background-repeat: none;
+}
+
+.location-access
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 60%;
+    background: rgb(2, 0, 36);
+        background: rgb(34, 193, 195);
+            background: linear-gradient(86deg, rgba(34, 193, 195, 1) 0%, rgba(100, 191, 100, 0.6111694677871149) 30%, rgba(253, 187, 45, 1) 100%);
+    align-self: center;
+    border-radius: 12px;
+    
+}
+
+.location-specifier
+{
+    width: 75%;
+    height: 100%;
+    display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        justify-content: space-around;
+}
+
+.search
+{
+    justify-self: end;
+}
+
+div > .dropdown
+{
+    background-color: rgba(48, 240, 112, 0.803);
+    border-radius: 10px;
+}
